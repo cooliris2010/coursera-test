@@ -1,27 +1,41 @@
+#topleft{
+   position:relative;
+
+   top:0px;
+   right:0px;
+   float:right;
+
+  }
+
 @media (min-width:992px ){
 	div {
-		width: 33%;
+		width: 31%;
 	}
 }
 
 @media (min-width:768px ) and (max-width: 991px){
 	div.chicken,div.fish {
-		width: 50%;
+		width: 47%;
 	}
 	div.dessert{
-		width:100%;
+		width:98%;
 	}
 }
 
 @media (max-width:767px ){
 	div {
-		width: 100%;
+		width: 98%;
 	}
 }
 
 div{
 	background-color: gray;
 float: left;
+margin : 5px;
+padding:5px;
+border-style: solid;
+border-width: 1px;
+
 }
 h1{
 	text-align: center;
